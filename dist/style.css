@@ -88,7 +88,7 @@ body {
 
 .hero-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../dist/imgs/hero-img-burger.jpeg');
+    url('./imgs/hero-img-burger.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
