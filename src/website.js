@@ -14,7 +14,7 @@ function createHeader() {
 
   const logoImage = document.createElement('img');
   logoImage.classList.add('logo-img');
-  logoImage.src = '../dist/imgs/logo.jpeg';
+  logoImage.src = '../src/img/logo.jpeg';
   logoImage.alt = 'Good Burger logo';
 
   logo.appendChild(logoImage);
