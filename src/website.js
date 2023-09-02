@@ -3,6 +3,7 @@
 import homePage from './home';
 import menuPage from './menu';
 import contactPage from './contact';
+import logoImg from './imgs/logo-img-copy.png';
 
 function createHeader() {
   // Header Section
@@ -14,7 +15,7 @@ function createHeader() {
 
   const logoImage = document.createElement('img');
   logoImage.classList.add('logo-img');
-  logoImage.src = '../src/assets/imgs/logo-img-copy.png';
+  logoImage.src = logoImg;
   logoImage.alt = 'Good Burger logo';
 
   logo.appendChild(logoImage);
